@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"    # karena project Python
+    directory: "/"              # lokasi file requirements.txt
+    schedule:
+      interval: "weekly"        # cek tiap minggu
